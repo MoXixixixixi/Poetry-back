@@ -1,0 +1,21 @@
+#spring.application.name=poetry-back
+spring:
+  application:
+    name: poetry-back
+  datasource:
+    url: jdbc:mysql://114.55.4.180:3306/competition_database
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: uyk00e6$6kH1nPfjtNgD^55ZTiA^7l$ki6x$aLDR
+    hikari:
+      max-lifetime: 30000 #与数据库连接的生命周期 三十分钟 1800000  二十四小时 86400000
+  mvc:
+    servlet:
+      load-on-startup: 10 #必须大于0
+
+server:
+  port: 9999
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰命令和下划线命令之间的自动转换
+
