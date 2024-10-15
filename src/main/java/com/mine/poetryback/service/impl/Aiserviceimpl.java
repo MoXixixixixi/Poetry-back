@@ -29,9 +29,9 @@ import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
 @Service
 public class Aiserviceimpl implements Aiservice {
-    private static final String API_KEY = "b8e9e83d163a6eb9f7883e31754ee2d6";
+    private static final String API_KEY = "a5f471542fa63efcd27afb4760f9e4d8";
 
-    private static final String API_SECRET = "0ECBWb937jJbTRN8";
+    private static final String API_SECRET = "S15RuuABK9JDnfkx";
 
     private static final ClientV4 client = new ClientV4.Builder(API_KEY,API_SECRET).build();
 
